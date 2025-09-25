@@ -1,0 +1,7 @@
+build:
+  hello:
+    context: app
+    secrets:
+      my_name: my_secret_name
+deploy:
+  compose: docker-compose.yaml
